@@ -1,10 +1,11 @@
-echo 'Running Fixup...'
+echo 'Running Fixup script...'
 cat >dist/cjs/package.json <<!EOF
 {
     "type": "commonjs",
     "types": "./index.d.ts"
 }
 !EOF
+echo 'Created package.json for commonjs'
 
 cat >dist/esm/package.json <<!EOF
 {
@@ -12,4 +13,7 @@ cat >dist/esm/package.json <<!EOF
     "types": "./index.d.ts"
 }
 !EOF
-echo 'Finished Fixup'
+
+echo 'Created package.json for es module'
+
+echo 'Finished Fixup script'

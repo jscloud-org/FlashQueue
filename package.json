@@ -25,7 +25,15 @@
     "type": "git",
     "url": "https://github.com/jscloud-org/FlashQueue"
   },
-  "keywords": [],
+  "keywords": [
+    "queue",
+    "Fast queue",
+    "efficient",
+    "lightweight",
+    "flash",
+    "data",
+    "store"
+  ],
   "author": "Jerry S Joseph",
   "license": "ISC"
 }

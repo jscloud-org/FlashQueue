@@ -8,6 +8,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": { 
+   "registry":"https://npm.pkg.github.com"
+},
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",

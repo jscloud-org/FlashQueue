@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      
+      #publish to NPM packages
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -18,3 +20,14 @@ jobs:
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.FQ_NPM_TOKEN}}
+
+      #publish to Github packages
+      - uses: actions/setup-node@v2
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+          # Defaults to the user or organization that owns the workflow file
+          scope: '@jscloud-org'
+      # Publish to GitHub Packages
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.FQ_GITHUB_TOKEN }}

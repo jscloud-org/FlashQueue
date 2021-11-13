@@ -1,4 +1,4 @@
-name: NPM Publish
+name: Github Packages Publish
 
 on:
   release:
@@ -9,18 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      
-      #publish to NPM packages
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - run: npm install
-      - run: npm run build
-      - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.FQ_NPM_TOKEN}}
-
       #publish to Github packages
       - uses: actions/setup-node@v2
         with:

@@ -1,6 +1,6 @@
 {
   "name": "@js-cloud/flashq",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A superfast and lightweight Queue (FIFO) implementations in JavaScript.",
   "module": "./dist/esm/index.js",
   "main": "./dist/cjs/index.js",
@@ -8,9 +8,9 @@
   "files": [
     "dist"
   ],
-  "publishConfig": { 
-   "registry":"https://npm.pkg.github.com"
-},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",

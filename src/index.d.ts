@@ -1,2 +1,1 @@
 export { FlashQ } from './flashQ';
-

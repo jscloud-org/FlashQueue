@@ -1,0 +1,15 @@
+echo 'Running Fixup...'
+cat >dist/cjs/package.json <<!EOF
+{
+    "type": "commonjs",
+    "types": "./index.d.ts"
+}
+!EOF
+
+cat >dist/esm/package.json <<!EOF
+{
+    "type": "module",
+    "types": "./index.d.ts"
+}
+!EOF
+echo 'Finished Fixup'

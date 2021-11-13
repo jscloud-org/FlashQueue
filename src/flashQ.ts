@@ -1,5 +1,5 @@
 
-export default class FlashQ<T>{
+export class FlashQ<T>{
 
     private storage: object
     private head: number

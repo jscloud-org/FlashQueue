@@ -2,12 +2,23 @@
   "name": "@js-cloud/flashq",
   "version": "1.0.4",
   "description": "",
-  "main": "index.js",
+  "module": "./wrapper.mjs",
+  "main": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports":{
+    "import": "./wrapper.mjs",
+    "require": "./dist/cjs/index.js",
+    "module": "./wrapper.mjs"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json",
     "prebuild": "node utils/clean.js",
     "dev": "ts-node-dev --respawn --pretty --transpile-only sample/queue.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jscloud-org/FlashQueue"
   },
   "keywords": [],
   "author": "",

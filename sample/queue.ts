@@ -1,4 +1,4 @@
-import FQ from "../dist/esm/flashQueue";
+import FQ from "../dist/esm/flashQ";
 
 const fq = new FQ<number>();
 

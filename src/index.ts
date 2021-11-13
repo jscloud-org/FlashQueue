@@ -1,4 +1,4 @@
-import FlashQueue from "./flashQueue";
+import FlashQueue from "./flashQ";
 
 export default FlashQueue;
 

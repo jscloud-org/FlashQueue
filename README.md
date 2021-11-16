@@ -6,7 +6,6 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/jscloud-org/flashqueue)
 ![GitHub](https://img.shields.io/github/license/jscloud-org/flashqueue?style=plastic)
 
-
 FlashQ is a simple to use, blazing fast library which included different implementations of Queue datastructure for perfomance focused applications.
 
 ## Table of Contents

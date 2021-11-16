@@ -10,7 +10,7 @@ function deleteFolderRecursive(path)
             if (fs.lstatSync(curPath).isDirectory()) { // recurse
                 deleteFolderRecursive(curPath);
             } else { // delete file
-                fs.unlinkSync(curPath);
+                fs.unlinkSync(curPath)
             }
         });
 

@@ -1,10 +1,11 @@
 # FlashQ: a javascript Queue library
 
-![Version npm](https://www.npmjs.com/package/@js-cloud/flashq)
-![CI](https://github.com/jscloud-org/FlashQueue/actions/workflows/npm-packages-workflow.yml)
+![npm](https://img.shields.io/npm/v/@js-cloud/flashq?style=plastic)
+[![CI](https://github.com/jscloud-org/FlashQueue/actions/workflows/npm-packages-workflow.yml/badge.svg)](https://github.com/jscloud-org/FlashQueue/actions/workflows/npm-packages-workflow.yml)
 ![npm](https://img.shields.io/npm/dw/@js-cloud/flashq?label=installs&style=plastic)
 ![GitHub issues](https://img.shields.io/github/issues-raw/jscloud-org/flashqueue)
 ![GitHub](https://img.shields.io/github/license/jscloud-org/flashqueue?style=plastic)
+
 
 FlashQ is a simple to use, blazing fast library which included different implementations of Queue datastructure for perfomance focused applications.
 

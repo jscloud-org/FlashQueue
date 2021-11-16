@@ -187,3 +187,18 @@ console.log(aq.dequeue())    //1
 console.log(aq.peek())      //'item'
 console.log(aq.dequeue()); //'item'    
 ```
+
+## Contribute
+
+We welcome feedback, bug reports, and pull requests!
+
+For pull requests, please stick to the following guidelines:
+
+* Add tests for any new features and bug fixes. Ideally, each PR should increase the test coverage.
+* Follow the existing code style. (Run `npm run format` and `npm run lint` before checking in your code).
+* Put a reasonable amount of comments into the code.
+* Fork this repo on your GitHub user account, do your changes there and then create a PR against main repository.
+* Separate unrelated changes into multiple pull requests.
+
+Please note that by contributing any code or documentation to this repository (by
+raising pull requests, or otherwise) you explicitly agree to the.

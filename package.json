@@ -7,9 +7,7 @@
   "types": "./dist/esm/index.d.ts",
   "files": [
     "dist",
-    "README.md",
-    "package.json",
-    "package-lock.json"
+    "package.json"
   ],
   "exports": {
     ".": {

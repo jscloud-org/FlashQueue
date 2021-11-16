@@ -22,7 +22,9 @@ FlashQ is a simple to use, blazing fast library which included different impleme
 
 ## About
 
-This library is developed by Jerry S Joseph as an Open-Source project. 
+JS Cloud Suite is an open source project developed with an aim to simplify the effort of creating scalable and performance oriented cloud applications. This suite hosts a series of libraries, which can be integrated into any projects to enable cloud capabilities. We currently do not support in house hosted solutions, but with our tools and libraries, you can build customized solutions your own. All you need to have is a simple server setup (in old PCs, laptops, raspberry Pis, AWS EC2, etc).
+
+You can also contribute to this project. Navigate to [contribute](#contribute) section to know how. 
 
 ## Installation
 

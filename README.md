@@ -16,6 +16,9 @@ FlashQ is a simple to use, blazing fast library which included different impleme
 - [Modules](#modules)
   - [FlashQ](#flashq)
   - [AutoQ](#autoq)
+- [FAQ](#faq)
+- [Contribute](#contribute)
+- [Support](#support)
 - [License](#license)
 
 
@@ -24,7 +27,9 @@ FlashQ is a simple to use, blazing fast library which included different impleme
 
 JS Cloud Suite is an open source project developed with an aim to simplify the effort of creating scalable and performance oriented cloud applications. This suite hosts a series of libraries, which can be integrated into any projects to enable cloud capabilities. We currently do not support in house hosted solutions, but with our tools and libraries, you can build customized solutions your own. All you need to have is a simple server setup (in old PCs, laptops, raspberry Pis, AWS EC2, etc).
 
-You can also contribute to this project. Navigate to [contribute](#contribute) section to know how. 
+You can also contribute to this project. Navigate to [contribute](#contribute) section to know how.
+
+**This library is developed using Node.js and do not support any other frameworks yet. In order to install and use this library you are required to have a working installation of node.js (preferrably latest version).**
 
 ## Installation
 
@@ -39,11 +44,7 @@ npm install @js-cloud/flashq
 
 ### FlashQ
 
-Time complexity -> O(1) for enqueing 
-                   O(1) for dequeing
-
-Fastest implementation of queue using plain javascript objects. 
-
+Fastest implementation of queue using plain javascript objects. If you want a simpe and fast queue which works in traditional way, `FlashQ` might be the one for you.
 
 ## Usage
 

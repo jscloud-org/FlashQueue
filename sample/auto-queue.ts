@@ -2,7 +2,6 @@ import { AutoQueue } from '../src'
 
 const fq = new AutoQueue<number>();
 
-
 let k = 0;
 
 fq.onDequeue((item) => {
